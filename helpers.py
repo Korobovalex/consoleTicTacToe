@@ -22,7 +22,7 @@ def check_for_win(spots):
         return True
 
     # Проверка выигрышных совпадений по вертикали
-    elif (spots[1] == spots[4] == spots[7]) or (spots[2] == spots[5] == spots[5]) or (spots[3] == spots[6] == spots[9]):
+    elif (spots[1] == spots[4] == spots[7]) or (spots[2] == spots[5] == spots[8]) or (spots[3] == spots[6] == spots[9]):
         return True
 
     # Проверка выигрышных совпадений по диагонали
